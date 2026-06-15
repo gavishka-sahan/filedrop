@@ -1,0 +1,21 @@
+# Secrets - never commit the real .env
+.env
+
+# Test artifacts
+*.bin
+downloaded*
+*.txt
+!requirements.txt
+
+# Load testing binary
+hey
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Docker volumes (live on disk, not in repo)
+postgres_data/
+minio_data/

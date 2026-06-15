@@ -1,0 +1,1 @@
+A self-hosted file-drop service: upload a file, get a share link, download it from anywhere. Built as a learning project to explore distributed systems infrastructure — the application logic is intentionally simple; the architecture around it is the lesson.
