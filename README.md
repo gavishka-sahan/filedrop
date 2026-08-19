@@ -70,7 +70,7 @@ curl http://localhost/health
 |-------|---------------|-----------|
 | 0 | Single FastAPI container, `/health` route | Confirm the baseline runs |
 | 1 | PostgreSQL, upload/download with local disk storage | End-to-end flow working |
-| 2 | HAProxy + 3 app instances | Hit the wall: a file uploaded to instance A is invisible on instance B |
+| 2 | HAProxy + 3 app instances | A file uploaded to instance A is invisible on instance B |
 | 3 | MinIO shared object storage | The keystone fix, instances become truly stateless |
 | 4 | Redis metadata cache | Skip Postgres on every repeated download |
 | 5 | Nginx reverse proxy | Rate limiting, large upload streaming |
